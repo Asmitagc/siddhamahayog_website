@@ -3,7 +3,6 @@
 @section("title")
     ::contact Us
 @endsection
-
 @section("content")
 
  <!-- end page-header -->
@@ -50,28 +49,30 @@
                 </div>
                 <!-- end col-5 -->
                 <div class="col-lg-5">
-                <div class="contact-form">
-                    <div class="mb-3">
-                    <input type="text" placeholder="Complete Name" />
+                    <div class="contact-form">
+                        <form action="" style="display:contents" method="post">
+                            <div class="mb-3">
+                                <input type="text" name="name" class="hover_effect" require placeholder="Complete Name" />
+                            </div>
+                        <!-- end mb-3 -->
+                            <div class="mb-3">
+                                <input type="text" name="email" required placeholder="E-mail Address" />
+                            </div>
+                            <!-- end mb-3 -->
+                            <div class="mb-3">
+                                <input type="text" name="phone" required placeholder="Phone Number" />
+                            </div>
+                            <!-- end mb-3 -->
+                                <div class="mb-3">
+                                    <textarea placeholder="Your Message" require></textarea>
+                                </div>
+                            <!-- end mb-3 -->
+                            <div class="mb-3">
+                                <input type="submit" value="Send Us" />
+                            </div>
+                            <!-- end mb-3 -->
+                        </form>
                     </div>
-                    <!-- end mb-3 -->
-                    <div class="mb-3">
-                    <input type="text" placeholder="E-mail Address" />
-                    </div>
-                    <!-- end mb-3 -->
-                    <div class="mb-3">
-                    <input type="text" placeholder="Phone Number" />
-                    </div>
-                    <!-- end mb-3 -->
-                    <div class="mb-3">
-                    <textarea placeholder="Your Message"></textarea>
-                    </div>
-                    <!-- end mb-3 -->
-                    <div class="mb-3">
-                    <input type="submit" value="Send Us" />
-                    </div>
-                    <!-- end mb-3 -->
-                </div>
                 <!-- end contact-form -->
                 </div>
                 <!-- end col-5 -->

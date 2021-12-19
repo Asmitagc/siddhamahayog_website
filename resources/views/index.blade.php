@@ -152,8 +152,8 @@
       <div class="row justify-content-center">
         <div class="section-title text-center">
           <h2>
-            Upgrade Your <br />
-            Kundali
+            Our Current <br />
+            Ongoing Activity
           </h2>
         </div>
 
@@ -167,7 +167,7 @@
                 <figure class="i">
                   <img src="images/icon-info.png" alt="Image" />
                 </figure>
-                <span>50% off exhibitions</span>
+                <!-- <span>50% off exhibitions</span> -->
               </div>
               <!-- end info -->
             </figure>
@@ -471,136 +471,114 @@
               <!-- end col-12 -->
               <div class="col-lg-4 col-md-6">
                 <div class="text-content" data-scroll data-scroll-speed="-1">
-                  <h6>Gaushala</h6>
+                  <h6>
+                    <a href="#">Gaushala</a>
+                  </h6>
                   <p>
                     In the 1980s, “the UK’s national museums faced political
                     pressure from the <strong>Conservative</strong> government
                     to charge for admission, to make them less dependent on
                     government funding".
                   </p>
+                  <figure>
+                      <img src="{{ asset('shala/gaushala/intro-gaushala.jpeg') }}" alt="">
+                  </figure>
                 </div>
                 <!-- end text-content -->
               </div>
               <!-- end col-4 -->
               <div class="col-lg-4 col-md-6">
                 <div class="text-content" data-scroll data-scroll-speed="0.5">
-                  <h6>Pathshala</h6>
+                  <h6>
+                    <a href="" class="hre">
+                      Pathshala
+                    </a>
+                  </h6>
                   <p>
                     In 1997, the new Labour government made a commitment to
                     reinstate free entry for <strong>national</strong> museums
                     in order to have a more diverse range of visitors.
                     “Following a campaign led by the museums themselves,
                   </p>
+                  <figure>
+                      <img src="{{ asset('shala/pathshala/pathshala-intro.jpeg') }}" alt="">
+                  </figure>
                 </div>
                 <!-- end text-content -->
               </div>
               <!-- end col-4 -->
               <div class="col-lg-4 col-md-6">
                 <div class="text-content" data-scroll data-scroll-speed="1">
-                  <h6>Dharma Shala</h6>
+                  <h6>
+                    <a href="">
+                      Dharma Shala
+                    </a>
+                  </h6>
                   <p>
                     The national museums which dropped charges all saw
                     <strong>substantial</strong> increases to their visitor
                     numbers, an average of 70 percent. In the first year after
                     free admission was introduced visitor figures.
                   </p>
+                  <figure>
+                      <img src="" alt="">
+                  </figure>
                 </div>
                 <!-- end text-content -->
               </div>
               <!-- end col-4 -->
             </div>
+            <div class="row bg-light">
+              <!-- end col-4 -->
+              <div class="col-lg-4 col-md-6">
+                <div class="text-content" data-scroll data-scroll-speed="1">
+                  <h6>
+                    <a href="">PakhShala</a>
+                  </h6>
+                  <p>
+                    The national museums which dropped charges all saw
+                    <strong>substantial</strong> increases to their visitor
+                    numbers, an average of 70 percent. In the first year after
+                    free admission was introduced visitor figures.
+                  </p>
+                  <figure>
+                      <img src="{{ asset('shala/pakhsahala/pakhshala-intro.jpeg') }}" alt="">
+                  </figure>
+                </div>
+                <!-- end text-content -->
+              </div>
+              <!-- end col-4 -->
+
+              <!-- end col-4 -->
+              <div class="col-lg-4 col-md-6">
+                <div class="text-content" data-scroll data-scroll-speed="1">
+                  <h6>
+                    <a href="">
+                      Pakh Shala
+                    </a>
+                  </h6>
+                  <p>
+                    The national museums which dropped charges all saw
+                    <strong>substantial</strong> increases to their visitor
+                    numbers, an average of 70 percent. In the first year after
+                    free admission was introduced visitor figures.
+                    numbers, an average of 70 percent. In the first year after
+                    free admission was introduced visitor figures.
+                  </p>
+                  <figure>
+                      <img src="{{ asset('shala/pakhsahala/pakhshala-intro.jpeg') }}" alt="">
+                  </figure>
+                </div>
+                <!-- end text-content -->
+              </div>
+              <!-- end col-4 -->
+
+
+            </div>
             <!-- end row -->
           </div>
           <!-- end container -->
           <div class="clearfix spacing-100"></div>
-          <div class="horizontal-scroll">
-            <div
-              class="scroll-inner"
-              data-scroll
-              data-scroll-direction="horizontal"
-              data-scroll-speed="5"
-            >
-              <div class="scroll-wrapper">
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-md-3">
-                      <figure
-                        class="image-box"
-                        data-scroll
-                        data-scroll-speed="0"
-                      >
-                        <img src="images/image01.jpg" alt="Image" />
-                      </figure>
-                    </div>
-                    <!-- end col-3 -->
-                    <div class="col-md-4 offset-md-1">
-                      <figure
-                        class="image-box"
-                        data-scroll
-                        data-scroll-speed="0"
-                      >
-                        <img src="images/image02.jpg" alt="Image" />
-                      </figure>
-                    </div>
-                    <!-- end col-3 -->
-                    <div class="col-md-2 offset-md-1">
-                      <figure
-                        class="image-box"
-                        data-scroll
-                        data-scroll-speed="0"
-                      >
-                        <img src="images/image03.jpg" alt="Image" />
-                      </figure>
-                    </div>
-                    <!-- end col-3 -->
-                  </div>
-                  <!-- end row -->
-                </div>
-                <!-- end container-fluid -->
-              </div>
-              <!-- end scroll-wrapper -->
-              <div class="scroll-wrapper">
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-md-3">
-                      <figure
-                        class="image-box"
-                        data-scroll
-                        data-scroll-speed="0"
-                      >
-                        <img src="images/image01.jpg" alt="Image" />
-                      </figure>
-                    </div>
-                    <!-- end col-3 -->
-                    <div class="col-md-4 offset-md-1">
-                      <figure
-                        class="image-box"
-                        data-scroll
-                        data-scroll-speed="0"
-                      >
-                        <img src="images/image02.jpg" alt="Image" />
-                      </figure>
-                    </div>
-                    <!-- end col-3 -->
-                    <div class="col-md-2 offset-md-1">
-                      <figure
-                        class="image-box"
-                        data-scroll
-                        data-scroll-speed="0"
-                      >
-                        <img src="images/image03.jpg" alt="Image" />
-                      </figure>
-                    </div>
-                    <!-- end col-3 -->
-                  </div>
-                  <!-- end row -->
-                </div>
-                <!-- container-fluid -->
-              </div>
-              <!-- end scroll-wrapper -->
-            </div>
-            <!-- end scroll-inner -->
-          </div>
           <!-- end horizontal-scroll -->
         </section>
         <section class="content-section">
