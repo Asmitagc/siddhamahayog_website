@@ -20,7 +20,7 @@ class CreateSubscriptionsTable extends Migration
             $table->string("phone")->nullable();
             $table->boolean('subscribed')->default(true);
             $table->timestamps();
-            $table->softDelets();
+            $table->softDeletes();
         });
     }
 
