@@ -2,9 +2,8 @@
 
 @section("title")
     ::pathshala
-    
 @endsection
 
 @section("content")
-    <
+    
 @endsection

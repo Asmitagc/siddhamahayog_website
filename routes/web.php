@@ -22,6 +22,32 @@ Route::get('/shala/gaushala.html', function() {
 });
 
 
+Route::get('/shala/dharmashala.html', function(){
+    return view("shala.dharmashala");
+});
+
+Route::get('/shala/pakshala.html', function(){
+    return view("shala.pakshala");
+});
+
+Route::get('/shala/ayurvedashala.html', function(){
+    return view("shala.ayurvedashala");
+});
+
+Route::get('/shala/pathshala.html', function(){
+    return view("shala.pathshala");
+});
+
+Route::get('/contactus', function(){
+    return view("asdf");
+});
+
+
+
+
+
+
+
 Route::prefix("subscribe")
         ->name("subscribe.")
         ->group(function() {
