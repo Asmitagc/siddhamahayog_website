@@ -50,7 +50,7 @@ Route::prefix("terms")->name('terms.')
 
 
 Route::get('/contactus', function(){
-    return view("asdf");
+    return view("contactus");
 });
 
 
