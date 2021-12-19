@@ -17,26 +17,37 @@ Route::get('/', function () {
     return view("index");
 })->name('home');
 
-Route::get('/shala/gaushala.html', function() {
-    return view ("shala.gaushala");
+Route::prefix("shala")->name("shala.")
+        ->group(function() {
+            Route::get('gaushala.html', function() {
+                return view ("shala.gaushala");
+            })->name("gaushala");
+            
+            
+            Route::get('dharmashala.html', function(){
+                return view("shala.dharmashala");
+            })->name("dharmashala");
+            
+            Route::get('pakshala.html', function(){
+                return view("shala.pakshala");
+            })->name('pakshala');
+            
+            Route::get('ayurvedashala.html', function(){
+                return view("shala.ayurvedashala");
+            })->name('pakshala');
+            
+            Route::get('pathshala.html', function(){
+                return view("shala.pathshala");
+            })->name("pathsahal");
 });
 
-
-Route::get('/shala/dharmashala.html', function(){
-    return view("shala.dharmashala");
+Route::prefix("terms")->name('terms.')
+    ->group(function(){
+        Route::get("subscriber/privacy",function(){
+            return view("terms.privacy");
+        })->name('subscriber_privacy');
 });
 
-Route::get('/shala/pakshala.html', function(){
-    return view("shala.pakshala");
-});
-
-Route::get('/shala/ayurvedashala.html', function(){
-    return view("shala.ayurvedashala");
-});
-
-Route::get('/shala/pathshala.html', function(){
-    return view("shala.pathshala");
-});
 
 Route::get('/contactus', function(){
     return view("asdf");
