@@ -39,7 +39,7 @@ Route::get('/shala/pathshala.html', function(){
 });
 
 Route::get('/contactus', function(){
-    return view("asdf");
+    return view("contactus");
 });
 
 
