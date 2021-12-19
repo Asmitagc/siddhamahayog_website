@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\SubscriptionController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view("index");
-});
+})->name('home');
 
 Route::get('/shala/gaushala.html', function() {
     return view ("shala.gaushala");
@@ -52,4 +52,8 @@ Route::prefix("subscribe")
         ->name("subscribe.")
         ->group(function() {
             Route::post("/subscriber/new",[SubscriptionController::class,"store"])->name("add_new_subscription_list");
+    });
+Route::prefix('contact')->name('contact.')
+        ->group(function() {
+            Route::post('/send_message',[ContactUsController::class,"contact_us_email"])->name("send_contact_us_messge");
     });

@@ -12,7 +12,8 @@
         @yield("title")
     </title>
     @yield("meta")
-    
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
     <!-- CSS FILES -->
     <link rel="stylesheet" href="{{ asset ('css/fontawesome.min.css') }}" />
     <link rel="stylesheet" href="{{ asset ('css/odometer.min.css') }}" />
@@ -142,7 +143,7 @@
         </aside>
         <nav class="navbar">
           <div class="logo">
-            <a href="index.html">
+            <a href="{{ route('home') }}">
               <img
                 src="https://psmyoga.ca/wp-content/uploads/2021/02/LogoT-e1621667004612-150x150.png"
                 alt="Image"
@@ -197,12 +198,20 @@
                       <h2>Sign up to get the latest news</h2>
                     </div>
                     <!-- end titles -->
+                    <p id="sub_message" class='text-danger'>Thank-you, This is the response text.</p>
+
+                    <form style="display:contents" id="subscribe" action="{{ route('subscribe.add_new_subscription_list') }}" method="post">
                     <div class="inner">
-                      <input
-                        type="email"
-                        placeholder="Enter your e-mail address"
-                      />
-                      <input type="submit" value="SIGN UP" />
+                        @csrf
+                        <input
+                          value="{{ old('email') }}"
+                          type="email"
+                          placeholder="Enter your e-mail address",
+                          name="email"
+                          required
+                        />
+                        <input type="submit" value="SIGN UP" />
+                      </form>
                     </div>
                     <!-- end inner -->
                     <small
@@ -303,7 +312,28 @@
     <script src="{{ asset ('js/swiper.min.js') }}"></script>
     <script src="{{ asset ('js/scripts.js') }}"></script>
     <script type="text/javascript">
-        
+        $("#subscribe").submit( function (event) {
+            event.preventDefault();
+            $("#sub_message").removeAttr('class').attr('class','text-warning').empty().html("Please wait...")
+            $.ajax({
+              type : "POST",
+              url: $(this).attr("action"),
+              data : $(this).serializeArray(),
+              headers: {
+                  'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+              },
+              success : function (response) {
+                if (response.success === true) {
+                  $("#sub_message").attr("class","text-primary");
+                } else {
+                  $("#sub_message").attr("class",'text-danger');
+                }
+                $("#sub_message").fadeIn("fast", function() {
+                    $(this).html(response.message);
+                })
+              }
+            })
+        })
     </script>
   </body>
 </html>
