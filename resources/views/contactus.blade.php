@@ -8,7 +8,6 @@
 
 
 @endsection
-
 @section("content")
 
     <!-- end page-transition -->
@@ -104,6 +103,7 @@
                   </p>
                 </div>
                 <!-- end contact-box -->
+<<<<<<< HEAD
             
                 <!-- end contact-box -->
               </div>
@@ -131,6 +131,35 @@
                   </div>
                   <!-- end mb-3 -->
                 </div>
+=======
+                </div>
+                <!-- end col-5 -->
+                <div class="col-lg-5">
+                    <div class="contact-form">
+                        <form action="" style="display:contents" method="post">
+                            <div class="mb-3">
+                                <input type="text" name="name" class="hover_effect" require placeholder="Complete Name" />
+                            </div>
+                        <!-- end mb-3 -->
+                            <div class="mb-3">
+                                <input type="text" name="email" required placeholder="E-mail Address" />
+                            </div>
+                            <!-- end mb-3 -->
+                            <div class="mb-3">
+                                <input type="text" name="phone" required placeholder="Phone Number" />
+                            </div>
+                            <!-- end mb-3 -->
+                                <div class="mb-3">
+                                    <textarea placeholder="Your Message" require></textarea>
+                                </div>
+                            <!-- end mb-3 -->
+                            <div class="mb-3">
+                                <input type="submit" value="Send Us" />
+                            </div>
+                            <!-- end mb-3 -->
+                        </form>
+                    </div>
+>>>>>>> 8141f53def5ffa36199d173677e821049cfbea3e
                 <!-- end contact-form -->
               </div>
               <!-- end col-5 -->

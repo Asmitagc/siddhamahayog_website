@@ -49,16 +49,6 @@ Route::prefix("terms")->name('terms.')
 });
 
 
-Route::get('/contactus', function(){
-    return view("contactus");
-});
-
-
-
-
-
-
-
 Route::prefix("subscribe")
         ->name("subscribe.")
         ->group(function() {
@@ -66,5 +56,8 @@ Route::prefix("subscribe")
     });
 Route::prefix('contact')->name('contact.')
         ->group(function() {
-            Route::post('/send_message',[ContactUsController::class,"contact_us_email"])->name("send_contact_us_messge");
+            Route::get("contact-us",function() {
+                return view('contactus');
+            })->name('contact-us-form');    
+            Route::post('/contact-us',[ContactUsController::class,"contact_us_email"])->name("send_contact_us_messge");
     });
