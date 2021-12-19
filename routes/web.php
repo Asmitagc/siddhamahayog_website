@@ -20,3 +20,10 @@ Route::get('/', function () {
 Route::get('/shala/gaushala.html', function() {
     return view ("shala.gaushala");
 });
+
+
+Route::prefix("subscribe")
+        ->name("subscribe.")
+        ->group(function() {
+            Route::post("/subscriber/new",[SubscriptionController::class,"store"])->name("add_new_subscription_list");
+    });

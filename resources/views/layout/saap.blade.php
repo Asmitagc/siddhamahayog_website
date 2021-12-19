@@ -55,6 +55,7 @@
           <div class="container">
             <div class="form">
               <h3>SEARCH EVENT</h3>
+              <form action="route()" method="post"></form>
               <input type="search" placeholder="What are you looking for ?" />
               <input type="submit" value="SEARCH" />
             </div>
@@ -301,5 +302,8 @@
     <script src="{{ asset ('js/odometer.min.js') }}"></script>
     <script src="{{ asset ('js/swiper.min.js') }}"></script>
     <script src="{{ asset ('js/scripts.js') }}"></script>
+    <script type="text/javascript">
+        
+    </script>
   </body>
 </html>
