@@ -18,8 +18,31 @@ class ContactUsController extends Controller
 
         $subject = "Message From Website.";
         $message = "You have a message from website:";
-        $message .= "";
+        $message .= "<br />";
+        $message .= "<strong><em>Person Detail</em></strong>";
+        $message .= "<br />";
+        $message .= "<strong>Name:</strong> ". $request->name;
+        $message .= "<br />";
+        $message .= "<strong>Email:</strong> ". $request->email;
+        $message .= "<br />";
+        $message .= "<strong>Phone:</strong> ". $request->phone;
+        $message .= "<br />";
+        $message .= "<strong>Message:</strong> ". $request->message;
+        $headers = "MIME-Version: 1.0" . "\r\n";
+        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
-        // send email now
+            // // More headers
+        $headers .= 'From: <noreply@siddhamahayog.org>' . "\r\n";
+        mail("unknownrocks619@gmail.com",'Contact Us Message',$message,$headers);
+        
+        if ($request->ajax()) {
+            return response([
+                "success" => true,
+                'message' => "Thank-you, Our team will get in touch with you as soon as possible."
+            ]);
+        }
+
+        $request->session()->message("success","Thank-you", "Our Team will get in touch with you as soon as possible.");
+        return back();
     }
 }
