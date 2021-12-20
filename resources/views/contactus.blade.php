@@ -103,35 +103,6 @@
                   </p>
                 </div>
                 <!-- end contact-box -->
-<<<<<<< HEAD
-            
-                <!-- end contact-box -->
-              </div>
-              <!-- end col-5 -->
-              <div class="col-lg-5">
-                <div class="contact-form">
-                  <div class="mb-3">
-                    <input type="text" placeholder="Complete Name" />
-                  </div>
-                  <!-- end mb-3 -->
-                  <div class="mb-3">
-                    <input type="text" placeholder="E-mail Address" />
-                  </div>
-                  <!-- end mb-3 -->
-                  <div class="mb-3">
-                    <input type="text" placeholder="Phone Number" />
-                  </div>
-                  <!-- end mb-3 -->
-                  <div class="mb-3">
-                    <textarea placeholder="Your Message"></textarea>
-                  </div>
-                  <!-- end mb-3 -->
-                  <div class="mb-3">
-                    <input type="submit" value="Send Us" />
-                  </div>
-                  <!-- end mb-3 -->
-                </div>
-=======
                 </div>
                 <!-- end col-5 -->
                 <div class="col-lg-5">
@@ -159,7 +130,6 @@
                             <!-- end mb-3 -->
                         </form>
                     </div>
->>>>>>> 8141f53def5ffa36199d173677e821049cfbea3e
                 <!-- end contact-form -->
               </div>
               <!-- end col-5 -->
