@@ -21,7 +21,7 @@
                 <figure class="i">
                   <img src="images/icon-info.png" alt="Image" />
                 </figure>
-                <!-- <span>50% off exhibitions</span> -->
+               
               </div>
               <!-- end info -->
             </figure>
@@ -44,21 +44,17 @@
               <a href="exhibition-detail.html"
                 ><img src="images/paddying.jpeg" alt="Image" class="img"
               /></a>
-              <div class="info">
-                <figure class="i">
-                  <img src="images/icon-info.png" alt="Image" />
-                </figure>
-           
-              </div>
+            
               <!-- end info -->
             </figure>
             <div class="content-box">
               <h4>
-                <a href="exhibition-detail.html"
-                  >Paddying</a
-                >
+              <a href="{{route('activities.paddy_processing')}}"> Paddy Processing
+</a>
+
+        
               </h4>
-              <p>22 Oct 2020 - 21 Feb 2021</p>
+              
             </div>
             <!-- end content-box -->
           </div>

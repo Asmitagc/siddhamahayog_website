@@ -44,10 +44,19 @@ Route::prefix("shala")->name("shala.")
 
 Route::prefix("activities")->name("activities.")
         ->group(function() {
-            Route::get('farming/cauli.html', function() {
+            Route::get('farming.html  ', function() {
                 return view ("activities.farming");
             })->name("farming"); 
+
+            Route::get('paddy_processing.html  ', function() {
+                return view ("activities.paddy_processing");
+            })->name("paddy_processing"); 
+
+
+
         });
+
+      
             
 
 
