@@ -16,40 +16,79 @@
                       <div class="swiper-slide">
                         <span>01</span>
                         <h3>
-                          Venus <br />
-                          de Milo
+                        मo  स्वामी श्रीराममनोहरदास जी महाराज <br />
+                          
                         </h3>
+
                       </div>
                       <!-- end swiper-slide -->
                       <div class="swiper-slide">
                         <span>02</span>
                         <h3>
-                          Les Demoiselles <br />
-                          d'Avignon
+                        श्रीमद् गाेस्वामी तुलसीदासजी महाराज
+ <br />
+                        
                         </h3>
                       </div>
                       <!-- end swiper-slide -->
                       <div class="swiper-slide">
                         <span>03</span>
                         <h3>
-                          Mona <br />
-                          Lisa
+                          जगतगुरु स्वामी रामानन्दचाय जी महाराज
+                           <br />
+                          
                         </h3>
                       </div>
                       <!-- end swiper-slide -->
                       <div class="swiper-slide">
                         <span>04</span>
                         <h3>
-                          L'Arlesienne: <br />
-                          Madame Ginoux
+                           <br />
+                          
                         </h3>
                       </div>
                       <!-- end swiper-slide -->
                       <div class="swiper-slide">
                         <span>05</span>
+                        <h3>प.पु श्री श्री १०८ श्री महन्त नारायण <br /> 
+                        दास जी महाराज
+                         <br />
+                          
+                        </h3>
+                      </div>
+                      <div class="swiper-slide">
+                        <span>05</span>
                         <h3>
-                          Cuckoo <br />
-                          Clocks
+                        संस्o मo स्वामी श्रीमणिरामदास जी महाराज  <br />
+                          
+                        </h3>
+                      </div>
+                      <div class="swiper-slide">
+                        <span>05</span>
+                        <h3> वर्त मo स्वामी श्रीनृत्यगोपालदास जी महाराज
+                           <br />
+                          
+                        </h3>
+                      </div>
+                      <div class="swiper-slide">
+                        <span>05</span>
+                        <h3>
+                        मo  स्वामी श्रीरामशोभादास जी महाराज <br />
+                         
+                        </h3>
+                      </div>
+                      <div class="swiper-slide">
+                        <span>05</span>
+                        <h3>
+                        मo  श्री स्वामी श्रीवैष्णवदास जी महाराज <br />
+                          
+                        </h3>
+                      </div>
+                      <div class="swiper-slide">
+                        <span>05</span>
+                        <h3>
+                        मo  स्वामी श्रीराममनोहरदास जी महाराज <br />
+                         
                         </h3>
                       </div>
                       <!-- end swiper-slide -->
@@ -65,25 +104,55 @@
                 <div class="art-slider" data-scroll data-scroll-speed="1">
                   <div class="swiper-container art-slider-images">
                     <div class="swiper-wrapper">
+                    
+                      <!-- end swiper-slide -->
                       <div class="swiper-slide">
-                        <img src="images/art-slide01.jpg" alt="Image" />
+                        <img src="images/gurup/gp1.jpg" alt="Image" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/gurup/gp2.jpg" alt="Image" />
                       </div>
                       <!-- end swiper-slide -->
                       <div class="swiper-slide">
-                        <img src="images/art-slide02.jpg" alt="Image" />
+                        <img src="images/gurup/gp3.jpg" alt="Image" />
                       </div>
-                      <!-- end swiper-slide -->
+
                       <div class="swiper-slide">
-                        <img src="images/art-slide03.jpg" alt="Image" />
+                        <img src="images/gurup/gp4.jpg" alt="Image" />
                       </div>
-                      <!-- end swiper-slide -->
+
                       <div class="swiper-slide">
-                        <img src="images/art-slide04.jpg" alt="Image" />
+                        <img src="images/gurup/gp5.jpg" alt="Image" />
                       </div>
-                      <!-- end swiper-slide -->
+
                       <div class="swiper-slide">
-                        <img src="images/art-slide05.jpg" alt="Image" />
+                        <img src="images/gurup/gp6.jpg" alt="Image" />
                       </div>
+
+                      <div class="swiper-slide">
+                        <img src="images/gurup/gp7.jpg" alt="Image" />
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="images/gurup/gp8.jpg" alt="Image" />
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="images/gurup/gp9.jpg" alt="Image" />
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="images/gurup/gp10.jpg" alt="Image" />
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="images/gurup/gp11.jpg" alt="Image" />
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="images/gurup/gp12.jpg" alt="Image" />
+                      </div>
+                    
                       <!-- end swiper-slide -->
                     </div>
                     <!-- end swiper-wrapper -->

@@ -15,7 +15,7 @@
           <div class="exhibition-box" data-scroll data-scroll-speed="-1">
             <figure>
               <a href="exhibition-detail.html"
-                ><img src="images/event01.jpg" alt="Image" class="img"
+                ><img src="images/farming.jpeg" alt="Image" class="img"
               /></a>
               <div class="info">
                 <figure class="i">
@@ -27,11 +27,11 @@
             </figure>
             <div class="content-box">
               <h4>
-                <a href="exhibition-detail.html"
-                  >Artemisia Gentileschi talk with Maria</a
+                <a href="{{route('activities.farming')}}"
+                  >Farming</a
                 >
               </h4>
-              <p>15 August – 31 October 2020</p>
+              
             </div>
             <!-- end content-box -->
           </div>
@@ -42,20 +42,20 @@
           <div class="exhibition-box" data-scroll data-scroll-speed="1">
             <figure>
               <a href="exhibition-detail.html"
-                ><img src="images/event02.jpg" alt="Image" class="img"
+                ><img src="images/paddying.jpeg" alt="Image" class="img"
               /></a>
               <div class="info">
                 <figure class="i">
                   <img src="images/icon-info.png" alt="Image" />
                 </figure>
-                <span>50% off exhibitions</span>
+           
               </div>
               <!-- end info -->
             </figure>
             <div class="content-box">
               <h4>
                 <a href="exhibition-detail.html"
-                  >Arctic culture and climate Exhibition</a
+                  >Paddying</a
                 >
               </h4>
               <p>22 Oct 2020 - 21 Feb 2021</p>

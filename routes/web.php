@@ -42,6 +42,30 @@ Route::prefix("shala")->name("shala.")
             })->name("pathsahal");
 });
 
+Route::prefix("activities")->name("activities.")
+        ->group(function() {
+            Route::get('farming/cauli.html', function() {
+                return view ("activities.farming");
+            })->name("farming"); 
+        });
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Route::prefix("terms")->name('terms.')
     ->group(function(){
         Route::get("subscriber/privacy",function(){

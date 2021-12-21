@@ -15,7 +15,7 @@
             data-background="images/slide-02-mobile.jpg"
           ></div>
         </div>
-        <div class="swiper-slide" data-background="images/slider-2.jpg">
+        <div class="swiper-slide" data-background="images/stone.jpeg">
           <div
             class="mobile-slide"
             data-background="images/slide-02-mobile.jpg"
