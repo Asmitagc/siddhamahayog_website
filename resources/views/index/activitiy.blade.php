@@ -27,8 +27,7 @@
             </figure>
             <div class="content-box">
               <h4>
-                <a href="{{route('activities.farming')}}"
-                  >Farming</a
+                <a href="{{route('activities.farming')}}">Farming</a
                 >
               </h4>
               

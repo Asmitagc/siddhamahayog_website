@@ -48,6 +48,17 @@
                         </h3>
                       </div>
                       <!-- end swiper-slide -->
+
+                      <div class="swiper-slide">
+                        <span>05</span>
+                        <h3>
+                        संस्o मo स्वामी श्रीमणिरामदास जी महाराज  <br />
+                          
+                        </h3>
+                      </div>
+
+
+
                       <div class="swiper-slide">
                         <span>05</span>
                         <h3>प.पु श्री श्री १०८ श्री महन्त नारायण <br /> 
@@ -56,13 +67,7 @@
                           
                         </h3>
                       </div>
-                      <div class="swiper-slide">
-                        <span>05</span>
-                        <h3>
-                        संस्o मo स्वामी श्रीमणिरामदास जी महाराज  <br />
-                          
-                        </h3>
-                      </div>
+                 
                       <div class="swiper-slide">
                         <span>05</span>
                         <h3> वर्त मo स्वामी श्रीनृत्यगोपालदास जी महाराज
@@ -84,13 +89,7 @@
                           
                         </h3>
                       </div>
-                      <div class="swiper-slide">
-                        <span>05</span>
-                        <h3>
-                        मo  स्वामी श्रीराममनोहरदास जी महाराज <br />
-                         
-                        </h3>
-                      </div>
+                 
                       <!-- end swiper-slide -->
                     </div>
                     <!-- end swiper-wrapper -->
@@ -107,7 +106,7 @@
                     
                       <!-- end swiper-slide -->
                       <div class="swiper-slide">
-                        <img src="images/gurup/gp1.jpg" alt="Image" />
+                        <img src="images/gurup/gp.jpg" alt="Image" />
                       </div>
                       <div class="swiper-slide">
                         <img src="images/gurup/gp2.jpg" alt="Image" />
