@@ -17,13 +17,6 @@
               <a href="exhibition-detail.html"
                 ><img src="images/farming.jpeg" alt="Image" class="img"
               /></a>
-              <div class="info">
-                <figure class="i">
-                  <img src="images/icon-info.png" alt="Image" />
-                </figure>
-               
-              </div>
-              <!-- end info -->
             </figure>
             <div class="content-box">
               <h4>
@@ -38,7 +31,7 @@
         </div>
         <!-- end col-4 -->
         <div class="col-lg-4 col-md-6">
-          <div class="exhibition-box" data-scroll data-scroll-speed="1">
+          <div class="exhibition-box" data-scroll data-scroll-speed="-1" >
             <figure>
               <a href="exhibition-detail.html"
                 ><img src="images/paddying.jpeg" alt="Image" class="img"
@@ -48,8 +41,9 @@
             </figure>
             <div class="content-box">
               <h4>
-              <a href="{{route('activities.paddy_processing')}}"> Paddy Processing
-</a>
+              <a href="{{route('activities.activities_pages','paddy_processing.html')}}">
+              Paddy Processing
+                   </a>
 
         
               </h4>
@@ -62,9 +56,9 @@
         <!-- end col-4 -->
         <div class="col-lg-4 col-md-6">
           <div
-            class="exhibition-box"
+            class="exhibition-box" 
             data-scroll
-            data-scroll-speed="-0.5"
+            data-scroll-speed="-1"
           >
             <figure>
               <a href="exhibition-detail.html"
@@ -74,17 +68,17 @@
                 <figure class="i">
                   <img src="images/icon-info.png" alt="Image" />
                 </figure>
-                <span>50% off exhibitions</span>
+                
               </div>
               <!-- end info -->
             </figure>
             <div class="content-box">
               <h4>
                 <a href="exhibition-detail.html"
-                  >Thomas Becket murder and the making of a saint</a
+                  >AArati</a
                 >
               </h4>
-              <p>22 Apr 2021 - 22 Aug 2021</p>
+            
             </div>
             <!-- end content-box -->
           </div>
@@ -92,7 +86,7 @@
         </div>
         <!-- end col-4 -->
         <div class="col-lg-4 col-md-6">
-          <div class="exhibition-box" data-scroll data-scroll-speed="-1">
+          <div class="exhibition-box" data-scroll data-scroll-speed="-1" >
             <figure>
               <a href="exhibition-detail.html"
                 ><img src="images/event04.jpg" alt="Image" class="img"
@@ -101,17 +95,17 @@
                 <figure class="i">
                   <img src="images/icon-info.png" alt="Image" />
                 </figure>
-                <span>50% off exhibitions</span>
+             
               </div>
               <!-- end info -->
             </figure>
             <div class="content-box">
               <h4>
                 <a href="exhibition-detail.html"
-                  >Artemisia Gentileschi talk with Maria</a
+                  >Sadhana</a
                 >
               </h4>
-              <p>15 August – 31 October 2020</p>
+            
             </div>
             <!-- end content-box -->
           </div>
@@ -119,7 +113,7 @@
         </div>
         <!-- end col-4 -->
         <div class="col-lg-4 col-md-6">
-          <div class="exhibition-box" data-scroll data-scroll-speed="1">
+          <div class="exhibition-box" data-scroll data-scroll-speed="-1" >
             <figure>
               <a href="exhibition-detail.html"
                 ><img src="images/event05.jpg" alt="Image" class="img"
@@ -128,17 +122,17 @@
                 <figure class="i">
                   <img src="images/icon-info.png" alt="Image" />
                 </figure>
-                <span>50% off exhibitions</span>
+            
               </div>
               <!-- end info -->
             </figure>
             <div class="content-box">
               <h4>
                 <a href="exhibition-detail.html"
-                  >Arctic culture and climate Exhibition</a
+                  >Vedanta Darsan</a
                 >
               </h4>
-              <p>22 Oct 2020 - 21 Feb 2021</p>
+              
             </div>
             <!-- end content-box -->
           </div>
@@ -147,9 +141,8 @@
         <!-- end col-4 -->
         <div class="col-lg-4 col-md-6">
           <div
-            class="exhibition-box"
-            data-scroll
-            data-scroll-speed="-0.5"
+            class="exhibition-box" data-scroll data-scroll-speed="-1"
+         
           >
             <figure>
               <a href="exhibition-detail.html"
@@ -159,17 +152,17 @@
                 <figure class="i">
                   <img src="images/icon-info.png" alt="Image" />
                 </figure>
-                <span>50% off exhibitions</span>
+               
               </div>
               <!-- end info -->
             </figure>
             <div class="content-box">
               <h4>
                 <a href="exhibition-detail.html"
-                  >Thomas Becket murder and the making of a saint</a
+                  > Akanda kreetan </a
                 >
               </h4>
-              <p>22 Apr 2021 - 22 Aug 2021</p>
+         
             </div>
             <!-- end content-box -->
           </div>

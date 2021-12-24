@@ -20,7 +20,7 @@
               <div class="col-lg-4 col-md-6">
                 <div class="text-content" >
                   <h6>
-                  <a href="{{route('shala.gaushala')}}"> Gaushala</a>
+                  <a href="{{route('shala.shala_pages','gaushala.html')}}"> Gaushala</a>
                   </h6>
                   <p align="Justify">
                   The cows in the gaushala are taken care with love and affection and provided 
@@ -39,7 +39,7 @@
               <div class="col-lg-4 col-md-6">
                 <div class="text-content">
                   <h6>
-                  <a href="{{route('shala.pathshala')}}"> Pathshala
+                  <a href="{{route('shala.shala_pages','pathshala.html')}}"> Pathshala
                    
                      
                     </a>
@@ -60,7 +60,7 @@
               <div class="col-lg-4 col-md-6">
                 <div class="text-content">
                   <h6>
-                  <a href="{{route('shala.dharmashala')}}">Dharma Shala
+                  <a href="{{route('shala.shala_pages','dharmashala.html')}}">Dharma Shala
                     </a>
                   </h6>
                   <p>
@@ -81,7 +81,7 @@
               <div class="col-lg-4 col-md-6">
                 <div class="text-content">
                   <h6> 
-                  <a href="{{route('shala.pakshala')}}">PakhShala
+                  <a href="{{route('shala.shala_pages','pakshala.html')}}">PakhShala
 </a>
                   </h6>
                   <p>
@@ -102,7 +102,7 @@
               <div class="col-lg-4 col-md-6">
                 <div class="text-content" >
                   <h6>
-                  <a href="{{route('shala.ayurvedashala')}}">Ayurved Shala
+                  <a href="{{route('shala.shala_pages','ayurvedashala.html')}}">Ayurved Shala
 </a>
                     
                     </a>

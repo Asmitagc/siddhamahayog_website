@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SubscriptionController;
 use App\Http\Controllers\ContactUsController;
+use App\Http\Controllers\ShalaController;
+use App\Http\Controllers\AsmitaController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,28 +20,17 @@ Route::get('/', function () {
     return view("index");
 })->name('home');
 
+/**
+ * we trimed our five different route to single one. 
+ */
 Route::prefix("shala")->name("shala.")
         ->group(function() {
-            Route::get('gaushala.html', function() {
-                return view ("shala.gaushala");
-            })->name("gaushala");
-            
-            
-            Route::get('dharmashala.html', function(){
-                return view("shala.dharmashala");
-            })->name("dharmashala");
-            
-            Route::get('pakshala.html', function(){
-                return view("shala.pakshala");
-            })->name('pakshala');
-            
-            Route::get('ayurvedashala.html', function(){
-                return view("shala.ayurvedashala");
-            })->name('ayurvedashala');
-            
-            Route::get('pathshala.html', function(){
-                return view("shala.pathshala");
-            })->name("pathshala");
+            Route::get('{page?}',[ShalaController::class,'pages'])->name('shala_pages');
+});
+
+Route::prefix("activities")->name("activities.")
+        ->group(function() {
+            Route::get('{page?}',[ActivitiesController::class,'pages'])->name('activities_pages');
 });
 
 Route::prefix("activities")->name("activities.")
@@ -51,9 +42,6 @@ Route::prefix("activities")->name("activities.")
             Route::get('paddy_processing.html', function() {
                 return view ("activities.paddy_processing");
             })->name("paddy_processing"); 
-
-
-
         });
 
       
@@ -62,7 +50,7 @@ Route::prefix("activities")->name("activities.")
 
 
 
-
+Route::post('/submit-form',[AsmitaController::class,"submit_my_form"])->name('submit_form');
 
 
 
